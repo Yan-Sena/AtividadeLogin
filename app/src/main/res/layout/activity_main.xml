@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F43F18"
+    >
+
+    <TextView
+        android:layout_width="458dp"
+        android:layout_height="252dp"
+        android:layout_gravity="center"
+        android:paddingStart="40dp"
+        android:paddingTop="62dp"
+        android:text="What's Here"
+        android:textColor="@color/white"
+        android:textSize="70sp" />
+
+    <TextView
+        android:layout_width="589dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background=""
+        android:paddingEnd="390dp"
+        android:textColor="@color/gray"
+        android:textSize="30sp"
+        tools:text="Email Address" />
+
+    <TextView
+        android:layout_width="5890dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-90dp"
+        android:paddingEnd="440dp"
+        android:textColor="@color/gray"
+        android:textSize="30sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        tools:text="__________________________" />
+
+    <TextView
+        android:layout_width="589dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="10dp"
+        android:background=""
+        android:paddingEnd="440dp"
+        android:textColor="@color/gray"
+        android:textSize="30sp"
+        tools:text="Password" />
+
+    <TextView
+        android:layout_width="5890dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-90dp"
+        android:paddingEnd="440dp"
+        android:textColor="@color/gray"
+        android:textSize="30sp"
+        tools:text="__________________________" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        tools:text="Login"></Button>
+
+    <TextView
+        android:layout_width="689dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:background=""
+        android:paddingEnd="440dp"
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        tools:text="Forget Password?" />
+
+    <TextView
+        android:layout_width="989dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="-60dp"
+        android:background=""
+        android:paddingEnd="440dp"
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        tools:text="____________  or ____________" />
+
+    <TextView
+        android:layout_width="689dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="-60dp"
+        android:background=""
+        android:paddingEnd="440dp"
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        tools:text="Sing up"
+        />
+
+    <TextView
+        android:layout_width="689dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="-103dp"
+        android:background=""
+        android:paddingEnd="440dp"
+        android:textColor="#4E342E"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="________" />
+
+
+
+</LinearLayout>

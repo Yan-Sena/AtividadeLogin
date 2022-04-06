@@ -15,7 +15,7 @@
         android:layout_gravity="center"
         android:paddingStart="40dp"
         android:paddingTop="62dp"
-        android:text="What's Here"
+        android:text="@string/what_s_here"
         android:textColor="@color/white"
         android:textSize="70sp" />
 
@@ -47,7 +47,7 @@
         android:layout_marginStart="10dp"
         android:background=""
         android:paddingEnd="440dp"
-        android:textColor="@color/gray"
+        android:textColor="#4E342E"
         android:textSize="30sp"
         tools:text="Password" />
 
@@ -76,7 +76,7 @@
         android:layout_marginTop="10dp"
         android:background=""
         android:paddingEnd="440dp"
-        android:textColor="@color/gray"
+        android:textColor="#4E342E"
         android:textSize="20sp"
         tools:text="Forget Password?" />
 
@@ -99,10 +99,9 @@
         android:layout_marginTop="-60dp"
         android:background=""
         android:paddingEnd="440dp"
-        android:textColor="@color/gray"
+        android:textColor="#4E342E"
         android:textSize="20sp"
-        tools:text="Sing up"
-        />
+        tools:text="Sing up" />
 
     <TextView
         android:layout_width="689dp"
